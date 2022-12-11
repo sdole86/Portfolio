@@ -1,0 +1,60 @@
+.resume {
+    width: 100vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.resume p {
+    text-indent: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.resume img {
+    width: 100%;
+    padding: 1rem;
+    object-fit: contain;
+}
+
+.resume-card {
+    border: 1px solid black;
+    width: 81vw;
+    height: 45vw;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    object-fit: contain;
+    box-sizing: content-box;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    align-self: center;
+
+}
+
+.resume-card p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 769px) {
+    .resume {
+        width: 100%;
+    }
+
+    .resume-card {
+        display: flex;
+        width: 90%;
+        height: 10rem;
+        align-self:unset;
+        padding: 0;
+    }
+
+    .resume-card img {
+        width: 480px;
+    }
+
+    .position-info {
+        align-self: center;
+    }
+}

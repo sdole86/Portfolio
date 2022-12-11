@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+.project h2 {
+  padding: 2rem;
+}
+
+.project p {
+  text-indent: 0;
+  padding: 0 2rem 0;
+}
+
+.section-descriptor{
+  margin-bottom: 2rem;
+}
+
+.project-types {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+.project-type-card {
+  width: 20vw;
+}
+
+.project-type-card img {
+  width: 100%;
+}
+
+.project-card {
+
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.project-card hr {
+  width: 50vw;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.frame {
+  width: 100%;
+  border: 3px solid #ccc;
+  background: rgb(216, 214, 214);
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 15px 15px;
+}
+
+@media screen and (min-width: 769px) {
+  .project-type-card {
+    width: 10%;
+  }
+}

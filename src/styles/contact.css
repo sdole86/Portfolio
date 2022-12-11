@@ -1,0 +1,46 @@
+
+.contact {
+    width: 100vw;
+    padding: 1rem;
+}
+
+.contact-image {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-image img {
+    height: 30vh;
+}
+
+.contact h2, .contact p {
+    padding: 0 2rem 0 2rem;
+}
+
+.contact p {
+    margin-top: 2rem;
+    text-indent: 0;
+}
+
+
+.contact-logos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+.contact-logos img {
+    
+    width: 30vw;
+}
+
+@media screen and (min-width: 769px) {
+    .contact {
+        width: 100%;
+    }
+    .contact-logos img {
+    
+        width: 80%;
+    }
+}
