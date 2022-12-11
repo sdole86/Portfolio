@@ -112,14 +112,14 @@ export default [
                 name: "Poke-a-Teletubby",
                 link: "sdole86.github.io/projects/javascript/pokeatubby/index.html",
                 github: "",
-                description: "Another Javascript class assignment. This assignment was meant to teach us how to use code libraries, in this case JQuery. In this assignment I ended up playing around with the carousel feature. Can you tell I was hungry when I designed it?"
+                description: "This was the final for my introduction to Javascript class. This is a simple whack a mole style game with a Teletubby theme. I used a couple of tricks to make this one appear more \"game-like\" such as randomizing the placement of the \"moles\", randomizing which graphic was used, and randomizing how long the player has to \"whack them\". As an added bonus, this project contains Teletubby trivia at the bottom of the page. I'm sure this information will pay off should trivia night at the local pub ever include a children's programming question."
             },
             {
                 image: "/img/projects/js02.png",
                 name: "Buffalo Wild Wings Carousel",
                 link: "sdole86.github.io/projects/javascript/bwwjcarousel/index.html",
                 github: "",
-                description: "This was the final for my introduction to Javascript class. This is a simple whack a mole style game with a Teletubby theme. I used a couple of tricks to make this one appear more \"game-like\" such as randomizing the placement of the \"moles\", randomizing which graphic was used, and randomizing how long the player has to \"whack them\". As an added bonus, this project contains Teletubby trivia at the bottom of the page. I'm sure this information will pay off should trivia night at the local pub ever include a children's programming question."
+                description: "Another Javascript class assignment. This assignment was meant to teach us how to use code libraries, in this case JQuery. In this assignment I ended up playing around with the carousel feature. Can you tell I was hungry when I designed it?"
             },
 
 
