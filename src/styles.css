@@ -161,6 +161,15 @@ article h1 {
   margin: 0;
 }
 
+.special-thanks {
+  margin-top: 2rem;
+}
+
+.special-thanks ul {
+  margin-top: 1rem;
+  padding: 0 2rem;
+}
+
 @media screen and (min-width: 769px) {
 
   body {

@@ -5,7 +5,7 @@ import developer from "/src/assets/undraw_developer.svg"
 export default function Home() {
     
     let currentHour = new Date().getHours()
-    let greeting = "Good " + (currentHour < 12 ? 'morning!' :  currentHour < 18 ? 'afternoon!' : 'evening!')
+    let greeting = "Good " + (currentHour < 2 ? 'evening!' : currentHour < 12 ? 'morning!' :  currentHour < 18 ? 'afternoon!' : 'evening!')
 
     return (
         <div className="home">

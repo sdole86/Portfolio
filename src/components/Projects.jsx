@@ -7,7 +7,6 @@ import "/src/styles/projects.css"
 export default function Resume() {
 
     const [projectType, setProjectType] = React.useState("")
-    const asp = getProjects("ASP.Net")
     
 
 

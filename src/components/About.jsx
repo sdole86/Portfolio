@@ -19,7 +19,14 @@ export default function About() {
             </div>
             <p>When I graduated and entered the work force I had forgotten about my love of code until I was offered the opportunity to work in IT doing desktop support. I had always had a passion for technology and this was a great chance to use this passion to help others. After I took this job I found a great joy in scripting in PowerShell to make my tasks more efficient. As I became more efficient I eventually began assisting with other, more complicated scripting projects for my team. It wasn't long before I reignited my childhood interest in coding. </p>
             <p>I would soon go back to school and educate myself in modern development practices. So much had changed since I was a youth and I wanted to learn it all. I've tried my hand at Java, Javascript, C#, PHP, and Python. Even after graduating from college I find myself researching new techologies and how to improve the way I do things. The single most important thing I've learned in this field is that technology never stops evolving and neither should you. I'm always excited to learn more and to better myself.</p>
-
+            <hr></hr>
+            <div className="special-thanks">
+                <p>A special thanks to the following sites for allowing me to use their assets and tools to develop this website:</p>
+                <ul>
+                    <li>The logo for this site was created for free at <a href="LogoMakr.com">LogoMakr.com</a></li>
+                    <li>The illustrations used on each page were taken from <a href="https://undraw.co/">unDraw</a></li>
+                </ul>
+            </div>
         </div>
     )
 
