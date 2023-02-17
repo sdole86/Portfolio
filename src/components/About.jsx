@@ -11,7 +11,7 @@ export default function About() {
                 <img src={Photo} />
                 <p>My wife and our first daughter</p>
             </div>
-            <p>Hello, my name is Samuel Dole and I am an aspiring <span className="bold">web designer</span> and <span className="bold">software developer</span>. I have been fascinated with coding ever since I was young. In middle school I found endless hours of entertainment in looking at website source code and using it to make my own websites and host them on Geocities. I don't mean to brag, but I had the best Gundam Wing fansite out there (<span className="italics">Geocities has not stood the test of time so you'll just have to take my word on it</span>).</p>
+            <p>Hello, my name is Samuel Dole and I am an <span className="bold">web designer</span> and <span className="bold">software developer</span>. I have been fascinated with coding ever since I was young. In middle school I found endless hours of entertainment in looking at website source code and using it to make my own websites and host them on Geocities. I don't mean to brag, but I had the best Gundam Wing fansite out there (<span className="italics">Geocities has not stood the test of time so you'll just have to take my word on it</span>).</p>
             <p>As I got older I would attempt to program my own video games. I used a simple game making engine but it gave me my first taste of development and taught me variables and conditional statements. I would spend hours crafting project after project, always happily starting over and starting a new one as new ideas and techniques came to mind. As time went on I pursued my other passion: history. My original bachelor's was in the history of the ancient world, specifically Greece and Rome, and I had a wonderful time studying and learning about the ancient world. </p>
             <div className="about-image">
                 <img src={Photo2} />
@@ -23,8 +23,8 @@ export default function About() {
             <div className="special-thanks">
                 <p>A special thanks to the following sites for allowing me to use their assets and tools to develop this website:</p>
                 <ul>
-                    <li>The logo for this site was created for free at <a href="LogoMakr.com">LogoMakr.com</a></li>
-                    <li>The illustrations used on each page were taken from <a href="https://undraw.co/">unDraw</a></li>
+                    <li>The logo for this site was created for free at <a href="https://www.LogoMakr.com">LogoMakr.com</a></li>
+                    <li>The illustrations used on each page were taken from <a href="https://www.undraw.co/">unDraw</a></li>
                 </ul>
             </div>
         </div>
